@@ -15,3 +15,6 @@ By default, Replit runs the `dev` script, but you can configure it by changing t
 ### Typescript
 
 Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+
+## About
+This project shocases the use of react hooks such as useState, useEffect, and useRef. It is a simple library that contains filter functionality, single-book viewing, a featured section, and a basic search functionality. It was not focused on styling. Enjoy
