@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VLC</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<link rel = "stylesheet" href = "vlc.css" />
+</head>
+
+<!-- header -->
+<header>
+	<div class = "header-container">
+		<div class = "logo m1-left">
+			<!-- logo -->
+			<img src = "VLC-icon-smaller.png" alt = "vlc icon" class = "vlc-logo" />
+			<h6>VLC</h6>
+		</div>
+		<div class = "search-div">
+			<a href = "#" class = "search-btn"><i class="fas fa-search"></i></a>
+			<input type = "text" name = "search_video" class = "hide-search search-video" placeholder = "Enter song name" />
+		</div>
+		<button class = "resume-play">
+			<i class="fa fa-play"></i>
+		</button>
+		<button class = "m1-right nav-toggle">
+			<i class="fa fa-ellipsis-v"></i>
+		</button>
+	</div>
+
+	<nav class = "nav hide-nav">
+		<ul>
+			<li class = "nav-item ff-small">
+				<button class = "toggle-child m0-right ff-medium">Sort by  <i class="fa-solid fa-arrow-turn-down ff-tiny" style = "background: black; color: white" ></i></button>
+				<ul class = "child-nav hide-nav">
+					<li class = "sort-name m1-top">Name</li>
+					<li class = "m1-top">Length</li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+
+</header>
+
+
+
+
+<body>
+	<article id = "soon-to-come">
+		<h5>Soon to Come</h5>
+	</article>
+	<!-- footer -->
+<footer id = "footer" class = "ff-small p3-bottom p3-top">
+	<div class = "m1-left">
+		<a href = "vlc.html"><i class="fas fa-video"></i></a>
+		<p>Video</p>
+	</div>
+	<div>
+		<a href = "soon.html"><i class="fa-sharp fa-solid fa-headphones"></i></a>
+		<p>Audio</p>
+	</div>
+	<div>
+		<a href = "soon.html"><i class="fa-sharp fa-solid fa-music"></i></a>
+		<p>Playlists</p>
+	</div>
+	<div class = "m1-right">
+		<a href = "soon.html"><i class="fa-sharp fa-solid fa-gear"></i></a>
+		<p>Settings</p>
+	</div>
+</footer>
+<script src = "vlc.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VIDEO PLAYER</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<link rel = "stylesheet" href = "vlc.css" />
+</head>
+<body>
+
+<!-- video -->
+<article class = "video-player-article">
+<section id = "video-player">
+
+	<!-- controls -->
+	<div class = "wrapper m1-bottom">
+		<div class = "timeline">
+			<div class = "video-timer">
+				<p class = "current-time">00:00</p>
+				<p class = "video-duration">00:00</p>
+			</div>
+			<div class = "progress-area">
+				<div class = "progress-bar m1-top"></div>
+			</div>
+		</div>
+
+		<div id = "controls">
+			<div id = "volume">
+				<button class = "volume">
+					<i class = "fa-solid fa-volume-high ff-tiny"></i>
+					<input type = "range" min="0" max="1" step="any" />
+				</button>
+			</div>
+
+			<div class = "forward-back">
+				<button class = "ff-small skip-backward"><i class = "fas fa-backward"></i></button>
+			</div>
+
+			<div class = "play">
+				<button class = "ff-small play-pause"><i class = "fas fa-play"></i></button>
+			</div>
+
+
+			<div class = "forward-back">
+				
+				<button class = "ff-small skip-forward"><i class = "fas fa-forward"></i></button>
+			</div>
+			<div class = "options-div">
+				<button class = "ff-small options"><i class="fas fa-ellipsis-h"></i></button>
+			</div>
+			<div class = "hide-controls options-list">
+				<button class = "m1-bottom ff-tiny fullscreen-btn"><i class = "fa-solid fa-expand"> Fullscreen</i></button>
+				<button><i class="ff-tiny fa-solid fa-forward-fast speed-control"> Playback Speed</i></button>
+			</div>
+			<ul class = "hide-controls speed-options">
+				<li data-speed = "2" class = "ff-small">2x</li>
+				<li data-speed = "1.5" class = "ff-small">1.5x</li>
+				<li data-speed = "1" class = "ff-small active">Normal</li>
+				<li data-speed = "0.75" class = "ff-small">0.75x</li>
+				<li data-speed = "0.5" class = "ff-small">0.5x</li>
+			</ul>
+		</div>
+	<!-- controls -->
+	</div>
+		<!-- video -->
+	<video id = "video" autoplay = "false" class = "video">
+		<source src = "Build A Analog Clock using HTML CSS & Javascript.mp4" type= "video/mp4">
+				this video is not supported
+	</video>
+		<!-- video -->
+	
+</section>
+</article>
+<script src = "video.js"></script>
+<!-- <script type = "text/javascript" src = "video-link.js"></script> -->
+</body>
+</html>
